@@ -1,0 +1,167 @@
+body {
+    background-image: url(../imagens/churrasco.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif, helvetica;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(62, 59, 59, 0.8);
+    padding: 15px 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 300px rgba(249, 173, 50, 0.718);
+    width: 380px;
+    margin: 20px;
+    border: solid 2px rgb(255, 181, 53);
+}
+
+h1 {
+    text-align: center;
+    margin: 5px;
+    padding-bottom: 2px;
+    color: white;
+    font-family: "Playwrite MX", cursive;
+    text-shadow: 2px 2px 5px #000000;
+    font-size: 33px;
+}
+
+h1 sup {
+    font-size: 7px;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+h2 {
+    text-align: center;
+    margin: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 5px 3px 5px #000000;
+    font-style: italic;
+}
+
+.titulo {
+    margin: 20px 38px;
+    padding-bottom: 5px;
+    
+
+
+}
+
+.participantes {
+    margin-top: 40px;
+}
+
+.ingrediente {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-style: italic;
+
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-bottom: 3px;
+
+
+}
+
+.input-group label {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    color: white;
+    text-shadow: 3px 3px 3px #000000;
+    font-family: "Roboto", sans-serif;
+    
+
+
+}
+
+
+.input-group .input-col {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+
+.input-group .input-col label {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.input-group input {
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background-color: rgba(38, 36, 36, 0.612);
+    color: white;
+    border: 1px solid rgb(255, 181, 53);
+
+}
+
+#cerveja-crianca {
+    background-color: rgba(38, 36, 36, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+
+}
+
+.input-group [type="number"] {
+    text-align: left;
+}
+
+button {
+    width: 25%;
+    padding: 7px 10px;
+    background-color: #766230;
+    border: solid 1px rgb(255, 181, 53);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+button:hover {
+    background-color: #715b1e;
+    color: #ffff98;
+}
+
+#resposta {
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+#resposta p {
+
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 15px;
+    
+    text-shadow: 2px 2px 5px #000000;
+}
+/**/

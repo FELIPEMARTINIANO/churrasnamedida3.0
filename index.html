@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churras na Medida 3.0</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/imagens/churrasss.ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Playwrite+US+Trad:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Churras<sup>FMS</sup></h1>
+        <h2>Na medida!</h2>
+
+        <div class="input-group">
+
+            <label class="participantes">Participantes (p):</label>
+
+
+            <div class="input-col">
+
+                <label class="titulo">Adultos</label>
+                <input type="number" id="adultos" value="0">
+            </div>
+            <div class="input-col">
+                <label class="titulo">Crianças</label>
+                <input type="number" id="criancas" value="0">
+            </div>
+        </div>
+        <div class="input-group">
+            <label class="ingrediente">Carne Bovina (kg/p):</label>
+            <div class="input-col">
+                <input type="number" id="carne-adulto" value="0">
+            </div>
+            <div class="input-col">
+                <input type="number" id="carne-crianca" value="0">
+            </div>
+        </div>
+        <div class="input-group">
+            <label class="ingrediente">Frango (kg/p):</label>
+            <div class="input-col">
+                <input type="number" id="frango-adulto" value="0">
+            </div>
+            <div class="input-col">
+                <input type="number" id="frango-crianca" value="0">
+            </div>
+        </div>
+        <div class="input-group">
+            <label class="ingrediente">Linguiça (kg/p):</label>
+            <div class="input-col">
+                <input type="number" id="linguica-adulto" value="0">
+            </div>
+            <div class="input-col">
+                <input type="number" id="linguica-crianca" value="0">
+            </div>
+        </div>
+        <div class="input-group">
+            <label class="ingrediente">Refrigerante (l/p):</label>
+            <div class="input-col">
+                <input type="number" id="refrigerante-adulto" value="0">
+            </div>
+            <div class="input-col">
+                <input type="number" id="refrigerante-crianca" value="0">
+            </div>
+        </div>
+        <div class="input-group">
+            <label class="ingrediente">Pão de Alho (kg/p):</label>
+            <div class="input-col">
+                <input type="number" id="pao-adulto" value="0">
+            </div>
+            <div class="input-col">
+                <input type="number" id="pao-crianca" value="0">
+            </div>
+        </div>
+        <div class="input-group">
+            <label class="ingrediente">Cerveja (l/p):</label>
+            <div class="input-col">
+                <input type="number" id="cerveja-adulto" value="0">
+            </div>
+            <div class="input-col">
+                <input type="number" id="cerveja-crianca" value="" disabled>
+            </div>
+        </div>
+        <button id="calcular">Calcular</button>
+
+        <div id="resposta"></div>
+    </div>
+    <script src="src/js/script.js">
+
+    </script>
+</body>
+
+</html>
